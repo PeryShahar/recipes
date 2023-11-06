@@ -86,8 +86,8 @@ body {
 }
 
 body {
+  background: url('../assets//backgound-green.jpg');
   color: rgb(var(--foreground-rgb));
-  background-color: #3EB489
 }
 
 a {

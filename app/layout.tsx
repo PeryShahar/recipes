@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { Edu_NSW_ACT_Foundation } from 'next/font/google'
 import './globals.css'
 
 
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
   description: 'here I gathered all my favorite recipes in one spot',
 }
 
-
+const edu = Edu_NSW_ACT_Foundation({ subsets: ['latin'] })
 
 export default function RootLayout({
   children,
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={edu.className}>
         {children}
       </body>
     </html>

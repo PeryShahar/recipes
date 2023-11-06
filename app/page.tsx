@@ -32,8 +32,8 @@ export default function Home() {
         {recipes.map(recipe => {
           return (
             <div key={recipe.id} className={styles.recipeItem} onClick={() => handleNavigateToRecipe(recipe.link)}>
-              <Image src={recipe.img} alt='recipe-img' width='200' height='200' />
-              <p> {recipe.title}</p>
+              <Image src={recipe.img} alt='recipe-img' width='300' height='300' />
+              <p className={styles.recipeTitle}>{recipe.title}</p>
             </div>
           )
         })}
