@@ -14,6 +14,11 @@ import roastedCauliflower from '../assets/roasted-cauliflower.jpg'
 import FermentedCashewCheese from '../assets/fermented-cashew-cheese.jpg'
 import yellowSplitPeaDahl from '../assets/yellow-split-pea-dahl.jpg'
 import veganCurryWithTofu from '../assets/vegan-curry-with-tofu.jpg'
+import chickpeaOmelette from '../assets/chickpea-omelette.jpg'
+import palakPannerTofu from '../assets/vegan-curry-with-tofu.jpg'
+import seaweedsRice from '../assets/seaweeds-rice.png'
+import crispySesameTofu from '../assets/crispy-sesame-tofu.jpeg'
+import veggieBurger from '../assets/veggie-burger.jpg'
 
 export  const recipes = [
 {
@@ -127,5 +132,40 @@ export  const recipes = [
     "category": ["Lunch"],
     "link": "https://rainbowplantlife.com/vegan-curry-with-tofu/",
     "img": veganCurryWithTofu
+},
+{
+    "id": 17,
+    "title":"Chickpea Omelette",
+    "category": ["Breakfast"],
+    "link": "https://www.theconsciousplantkitchen.com/chickpea-omelette/#Vegan_Chickpea_Omelette",
+    "img": chickpeaOmelette
+},
+{
+    "id": 18,
+    "title":"Vegan Palak Panner",
+    "category": ["Lunch"],
+    "link": "https://rainbowplantlife.com/vegan-palak-paneer-with-tofu/",
+    "img": palakPannerTofu
+},
+{
+    "id": 19,
+    "title":"Seaweeds Rice",
+    "category": ["Lunch"],
+    "link": "https://www.instagram.com/reel/CopicbCql9h/?igshid=NjZiM2M3MzIxNA%3D%3D",
+    "img": seaweedsRice
+},
+{
+    "id": 20,
+    "title":"Crispy Sesame Crusted Tofu",
+    "category": ["Lunch"],
+    "link": "https://sarahsvegankitchen.com/recipes/crispy-sesame-crusted-tofu/",
+    "img": crispySesameTofu
+},
+{
+    "id": 21,
+    "title":"Veggie Burger",
+    "category": ["Lunch"],
+    "link": "https://www.inspiredtaste.net/36554/veggie-burger-recipe/",
+    "img": veggieBurger
 }
 ]
