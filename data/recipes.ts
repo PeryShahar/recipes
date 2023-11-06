@@ -11,6 +11,9 @@ import greekFava from '../assets/greek-fava.jpg'
 import blackLentilsStew from '../assets/black-lentils-stew.jpg'
 import dalGreenLentils from '../assets/dal-green-lentils.jpg'
 import roastedCauliflower from '../assets/roasted-cauliflower.jpg'
+import FermentedCashewCheese from '../assets/fermented-cashew-cheese.jpg'
+import yellowSplitPeaDahl from '../assets/yellow-split-pea-dahl.jpg'
+import veganCurryWithTofu from '../assets/vegan-curry-with-tofu.jpg'
 
 export  const recipes = [
 {
@@ -106,23 +109,23 @@ export  const recipes = [
 },
 {
     "id": 14,
-    "title":"",
+    "title":"Fermented Cashew Cheese",
     "category": ["Lunch"],
-    "link": "",
-    "img": ""
+    "link": "https://rainbowplantlife.com/fermented-cashew-cheese/",
+    "img": FermentedCashewCheese
 },
 {
     "id": 15,
-    "title":"",
-    "category": [],
-    "link": "",
-    "img": ""
+    "title":"Yellow Split Pea Dal",
+    "category": ["Lunch"],
+    "link": "https://plantbasedfolk.com/yellow-split-pea-dal-recipe/",
+    "img": yellowSplitPeaDahl
 },
 {
     "id": 16,
-    "title":"",
-    "category": [],
-    "link": "",
-    "img": ""
+    "title":"Vegan Curry with Tofu",
+    "category": ["Lunch"],
+    "link": "https://rainbowplantlife.com/vegan-curry-with-tofu/",
+    "img": veganCurryWithTofu
 }
 ]
