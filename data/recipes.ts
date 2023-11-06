@@ -19,6 +19,7 @@ import palakPannerTofu from '../assets/vegan-curry-with-tofu.jpg'
 import seaweedsRice from '../assets/seaweeds-rice.png'
 import crispySesameTofu from '../assets/crispy-sesame-tofu.jpeg'
 import veggieBurger from '../assets/veggie-burger.jpg'
+import almondButter from '../assets/almond-butter.jpg'
 
 export  const recipes = [
 {
@@ -167,5 +168,12 @@ export  const recipes = [
     "category": ["Lunch"],
     "link": "https://www.inspiredtaste.net/36554/veggie-burger-recipe/",
     "img": veggieBurger
+},
+{
+    "id": 22,
+    "title":"Almond Butter",
+    "category": ["Spreads"],
+    "link": "https://downshiftology.com/how-to-make-homemade-almond-butter/",
+    "img": almondButter
 }
 ]
