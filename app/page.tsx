@@ -11,8 +11,10 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <h1 className={styles.title}>OUR RECIPES</h1>
-      <Navbar />
+      <div className={styles.header_box}>
+        <h1 className={styles.title}>OUR RECIPES</h1>
+        <Navbar />
+      </div>
       <div className={styles.recipeGrid}>
         {recipes.map(recipe => {
           return (
@@ -24,5 +26,6 @@ export default function Home() {
         })}
       </div>
     </main >
+
   )
 }
