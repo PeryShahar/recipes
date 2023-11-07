@@ -47,7 +47,7 @@ export  const recipes = [
 {
     "id": 4,
     "title":"Energy Balls",
-    "category": ["Desert"],
+    "category": ["Dessert"],
     "link": "https://veg.co.il/recipes/desserts/energy-balls/",
     "img": energyBalls
 },
@@ -68,7 +68,7 @@ export  const recipes = [
 {
     "id": 7,
     "title":"Fudgy Brownies",
-    "category": ["Desert"],
+    "category": ["Dessert"],
     "link": "https://www.instagram.com/reel/CmUzfmiIHuF/?igshid=MDJmNzVkMjY%3D",
     "img": fudgyBrownies
 },
@@ -180,7 +180,7 @@ export  const recipes = [
 {
     "id": 23,
     "title":"Vegan Malabi",
-    "category": ["Deserts"],
+    "category": ["Dessert"],
     "link": "https://tivoneat.co.il/vegan-gf-malabi/",
     "img": veganMalabi
 }
