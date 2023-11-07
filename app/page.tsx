@@ -1,28 +1,13 @@
-'use client'
-
 import Image from 'next/image'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
-import styles from './page.module.css'
-import { recipes } from '../data/recipes'
 
-function Navbar() {
-  return (
-    <>
-      <Link href='/'>Lunch</Link>
-      <Link href='/'>Soups</Link>
-    </>
-  )
-}
+import { recipes } from '../data/recipes'
+import Navbar from '@/components/Navbar'
+import styles from './page.module.css'
+
+
 
 export default function Home() {
-  const router = useRouter();
-
-
-  function handleNavigateToRecipe(recipeLink: string) {
-    router.push(recipeLink);
-
-  }
 
   return (
     <main className={styles.main}>
@@ -31,10 +16,10 @@ export default function Home() {
       <div className={styles.recipeGrid}>
         {recipes.map(recipe => {
           return (
-            <div key={recipe.id} className={styles.recipeItem} onClick={() => handleNavigateToRecipe(recipe.link)}>
+            <Link key={recipe.id} className={styles.recipeItem} href={recipe.link}>
               <Image src={recipe.img} alt='recipe-img' width='300' height='300' />
               <p className={styles.recipeTitle}>{recipe.title}</p>
-            </div>
+            </Link>
           )
         })}
       </div>
