@@ -15,12 +15,12 @@ export default function Home() {
         <h1 className={styles.title}>OUR RECIPES</h1>
         <Navbar />
       </div>
-      <div className={styles.recipeGrid}>
+      <div className={styles.recipe_grid}>
         {recipes.map(recipe => {
           return (
-            <Link key={recipe.id} className={styles.recipeItem} href={recipe.link}>
+            <Link key={recipe.id} className={styles.recipe_item} href={recipe.link}>
               <Image src={recipe.img} alt='recipe-img' width='300' height='300' />
-              <p className={styles.recipeTitle}>{recipe.title}</p>
+              <p className={styles.recipe_title}>{recipe.title}</p>
             </Link>
           )
         })}
