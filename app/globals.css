@@ -15,6 +15,7 @@ body {
   background: url('../assets//backgound-green.jpg');
   background-size: cover;
   color: rgb(var(--foreground-rgb));
+  color: white;
 }
 
 a {
