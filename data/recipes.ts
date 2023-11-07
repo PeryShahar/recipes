@@ -20,6 +20,7 @@ import seaweedsRice from '../assets/seaweeds-rice.png'
 import crispySesameTofu from '../assets/crispy-sesame-tofu.jpeg'
 import veggieBurger from '../assets/veggie-burger.jpg'
 import almondButter from '../assets/almond-butter.jpg'
+import veganMalabi from '../assets/vegan-malabi.jpg'
 
 export  const recipes = [
 {
@@ -175,5 +176,12 @@ export  const recipes = [
     "category": ["Spreads"],
     "link": "https://downshiftology.com/how-to-make-homemade-almond-butter/",
     "img": almondButter
+},
+{
+    "id": 23,
+    "title":"Vegan Malabi",
+    "category": ["Deserts"],
+    "link": "https://tivoneat.co.il/vegan-gf-malabi/",
+    "img": veganMalabi
 }
 ]
