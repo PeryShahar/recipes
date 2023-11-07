@@ -2,19 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { recipes } from '../data/recipes'
-import Navbar from '@/components/Navbar'
 import styles from './page.module.css'
 
-
-
-export default function Home() {
+export default function AllRecipes() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.header_box}>
-        <h1 className={styles.title}>OUR RECIPES</h1>
-        <Navbar />
-      </div>
       <div className={styles.recipe_grid}>
         {recipes.map(recipe => {
           return (

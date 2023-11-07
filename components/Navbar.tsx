@@ -5,10 +5,11 @@ import styles from './navbar.module.css'
 export default function Navbar() {
     return (
         <nav className={styles.nav}>
-            <Link href='/'>Lunch</Link>
-            <Link href='/'>Soups</Link>
-            <Link href='/'>Spreads</Link>
-            <Link href='/'>Desserts</Link>
+            <Link href='/'>All</Link>
+            <Link href='/lunch'>Lunch</Link>
+            <Link href='/soups'>Soups</Link>
+            <Link href='/spreads'>Spreads</Link>
+            <Link href='/desserts'>Desserts</Link>
         </nav>
     )
 }

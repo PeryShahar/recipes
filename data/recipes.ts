@@ -40,7 +40,7 @@ export  const recipes = [
 {
     "id": 3,
     "title":"Chickpea patties",
-    "category": ["Patties", "Lunch"],
+    "category": [ "Lunch"],
     "link": "https://veg.co.il/recipes/patties/chickpea-patties/",
     "img": chickpeaPatties
 },
