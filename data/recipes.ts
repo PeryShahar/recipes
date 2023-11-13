@@ -21,6 +21,7 @@ import crispySesameTofu from '../assets/crispy-sesame-tofu.jpeg'
 import veggieBurger from '../assets/veggie-burger.jpg'
 import almondButter from '../assets/almond-butter.jpg'
 import veganMalabi from '../assets/vegan-malabi.jpg'
+import simpleQuinoa from '../assets/simple-quinoa.jpg'
 
 export  const recipes = [
 {
@@ -183,5 +184,12 @@ export  const recipes = [
     "category": ["Dessert"],
     "link": "https://tivoneat.co.il/vegan-gf-malabi/",
     "img": veganMalabi
+},
+{
+    "id": 24,
+    "title":"Simple Quinoa",
+    "category": ["Lunch"],
+    "link": "https://www.supergood.co.il/%D7%90%D7%99%D7%9A-%D7%9C%D7%94%D7%9B%D7%99%D7%9F-%D7%A7%D7%99%D7%A0%D7%95%D7%90%D7%94-%D7%90%D7%97%D7%AA-%D7%90%D7%97%D7%AA/",
+    "img": simpleQuinoa
 }
 ]
