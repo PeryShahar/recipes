@@ -1,24 +1,8 @@
-import Image from 'next/image'
-import Link from 'next/link'
-
-import { recipes } from '../data/recipes'
-import styles from './page.module.css'
+import filterRecipesByCategory from '@/lib/getFilterRecipes'
 
 export default function AllRecipes() {
+  const spreadRecipes = filterRecipesByCategory()
 
-  return (
-    <main className={styles.main}>
-      <div className={styles.recipe_grid}>
-        {recipes.map(recipe => {
-          return (
-            <Link key={recipe.id} className={styles.recipe_item} href={recipe.link}>
-              <Image src={recipe.img} alt='recipe-img' width='300' height='300' />
-              <p className={styles.recipe_title}>{recipe.title}</p>
-            </Link>
-          )
-        })}
-      </div>
-    </main >
 
-  )
+  return spreadRecipes;
 }
