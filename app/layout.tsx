@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Edu_NSW_ACT_Foundation } from 'next/font/google'
-import Navbar from '@/components/Navbar'
+import NavLinks from './ui/Navbar'
 import styles from './page.module.css'
 import './globals.css'
 
@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={edu.className}>
         <div className={styles.header_box}>
           <h1 className={styles.title}>OUR RECIPES</h1>
-          <Navbar />
+          <NavLinks />
         </div>
         {children}
       </body>

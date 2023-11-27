@@ -1,4 +1,4 @@
-import filterRecipesByCategory from '@/lib/getFilterRecipes'
+import filterRecipesByCategory from '@/app/lib/getFilterRecipes'
 
 export default function Spreads() {
     const spreadRecipes = filterRecipesByCategory('Spreads')

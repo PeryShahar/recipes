@@ -1,4 +1,4 @@
-import filterRecipesByCategory from '@/lib/getFilterRecipes'
+import filterRecipesByCategory from '@/app/lib/getFilterRecipes'
 
 export default function Lunch() {
     const lunchRecipes = filterRecipesByCategory('Lunch')
