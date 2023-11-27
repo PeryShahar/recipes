@@ -15,6 +15,7 @@ export default function NavLinks() {
             {links.map((link) => {
                 return (
                     <Link
+                        key={link.name}
                         href={link.href}>
                         {link.name}
                     </Link>
