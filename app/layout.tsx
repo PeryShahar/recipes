@@ -8,6 +8,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Our Recipes',
   description: 'here I gathered all my favorite recipes in one spot',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 const edu = Edu_NSW_ACT_Foundation({ subsets: ['latin'] })
