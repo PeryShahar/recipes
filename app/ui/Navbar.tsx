@@ -7,6 +7,7 @@ const links = [
     { name: 'Soups', href: '/soups' },
     { name: 'Spreads', href: '/spreads' },
     { name: 'Desserts', href: '/desserts' },
+    { name: 'Beverages', href: '/beverages' },
 ];
 
 export default function NavLinks() {

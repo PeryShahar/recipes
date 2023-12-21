@@ -174,5 +174,23 @@ export  const recipes = [
     "category": ["Lunch"],
     "link": "https://www.flavourstreat.com/green-peas-masala-matar-curry/",
     "img": '/recipes/green-peas-curry.jpg'
+},{
+    "id": 26,
+    "title":"Turmeric Golden Milk",
+    "category": ["Beverages"],
+    "link": "https://foolproofliving.com/turmeric-golden-milk/",
+    "img": '/recipes/turmeric-golden-tea.jpg'
+},{
+    "id": 27,
+    "title":"Mexican Black Beans",
+    "category": ["Lunch"],
+    "link": "https://belleofthekitchen.com/mexican-black-beans-recipe/",
+    "img": '/recipes/mexican-black-beans.jpg'
+},{
+    "id": 28,
+    "title":"Oven Roasted Vegetables",
+    "category": ["Lunch"],
+    "link": "https://www.wellplated.com/oven-roasted-vegetables/#wprm-recipe-container-35156",
+    "img": '/recipes/roasted-vegetables-oven.jpeg'
 },
 ]
