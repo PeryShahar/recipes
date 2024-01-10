@@ -178,7 +178,7 @@ export  const recipes = [
     "id": 26,
     "title":"Turmeric Golden Milk",
     "category": ["Beverages"],
-    "link": "https://foolproofliving.com/turmeric-golden-milk/",
+    "link": "https://rainbowplantlife.com/vegan-golden-milk-turmeric-latte/",
     "img": '/recipes/turmeric-golden-tea.jpg'
 },{
     "id": 27,
