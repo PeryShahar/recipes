@@ -193,4 +193,11 @@ export  const recipes = [
     "link": "https://www.wellplated.com/oven-roasted-vegetables/#wprm-recipe-container-35156",
     "img": '/recipes/roasted-vegetables-oven.jpeg'
 },
+{
+    "id": 29,
+    "title":"Pesto",
+    "category": ["Spreads"],
+    "link": "https://www.wellplated.com/oven-roasted-vegetables/#wprm-recipe-container-35156",
+    "img": '/recipes/pesto.jpeg'
+},
 ]
