@@ -197,7 +197,7 @@ export  const recipes = [
     "id": 29,
     "title":"Pesto",
     "category": ["Spreads"],
-    "link": "https://www.wellplated.com/oven-roasted-vegetables/#wprm-recipe-container-35156",
+    "link": "https://rainbowplantlife.com/how-to-make-vegan-pesto/",
     "img": '/recipes/pesto.jpeg'
 },
 ]
