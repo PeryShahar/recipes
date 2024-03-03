@@ -207,4 +207,11 @@ export const recipes = [
         "link": "https://www.haaretz.co.il/food/sweets/vegan-desserts/2023-03-22/ty-article-magazine/00000186-ff2d-d31e-a9ef-ff6f93110000",
         "img": '/recipes/apple-pie.png'
     },
+    {
+        "id": 31,
+        "title": "Buckwheat Tortillas",
+        "category": ["Lunch"],
+        "link": "https://barieli.com/%D7%90%D7%95%D7%9B%D7%9C-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99/%D7%98%D7%95%D7%A8%D7%98%D7%99%D7%94-%D7%9B%D7%95%D7%A1%D7%9E%D7%AA-%D7%99%D7%A8%D7%95%D7%A7%D7%94-%D7%9C%D7%9C%D7%90-%D7%92%D7%9C%D7%95%D7%98%D7%9F/",
+        "img": '/recipes/buckwheat-tortillas.jpg'
+    },
 ]
