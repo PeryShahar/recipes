@@ -3,6 +3,7 @@ import styles from './navbar.module.css'
 
 const links = [
     { name: 'All', href: '/' },
+    { name: 'Breakfast', href: '/breakfast' },
     { name: 'Lunch', href: '/lunch' },
     { name: 'Soups', href: '/soups' },
     { name: 'Spreads', href: '/spreads' },
