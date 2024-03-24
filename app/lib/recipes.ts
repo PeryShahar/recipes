@@ -221,4 +221,32 @@ export const recipes = [
         "link": "https://itdoesnttastelikechicken.com/vegan-beet-burgers/",
         "img": '/recipes/beetroot-burgers.jpg'
     },
+    {
+        "id": 33,
+        "title": "Green Rice",
+        "category": ["Lunch"],
+        "link": "https://foody.co.il/foody_recipe/%D7%A8%D7%95%D7%9F-%D7%99%D7%95%D7%97%D7%A0%D7%A0%D7%95%D7%91-%D7%90%D7%95%D7%A8%D7%96-%D7%99%D7%A8%D7%95%D7%A7-%D7%A2%D7%9D-%D7%A7%D7%A8%D7%9D-%D7%A7%D7%95%D7%A7%D7%95%D7%A1-%D7%95%D7%A2%D7%A9%D7%91/",
+        "img": '/recipes/green-rice.jpg'
+    },
+    {
+        "id": 34,
+        "title": "Foie Gras (goose liver)",
+        "category": ["Lunch", "Spreads"],
+        "link": "https://www.ptitim.com/vegan_foie_gras/",
+        "img": '/recipes/goose-liver.jpeg'
+    },
+    {
+        "id": 35,
+        "title": "Tofu Scramble",
+        "category": ["Breakfast"],
+        "link": "https://www.noracooks.com/tofu-scramble/",
+        "img": '/recipes/tofu-scramble.jpeg'
+    },
+    {
+        "id": 36,
+        "title": "Zucchini Falafel",
+        "category": ["Lunch"],
+        "link": "https://foody.co.il/foody_recipe/%d7%a4%d7%9c%d7%90%d7%a4%d7%9c-%d7%96%d7%95%d7%a7%d7%99%d7%a0%d7%99-%d7%90%d7%a4%d7%95%d7%99%d7%99%d7%9d/",
+        "img": '/recipes/zucchini-falafel.jpg'
+    },
 ]
