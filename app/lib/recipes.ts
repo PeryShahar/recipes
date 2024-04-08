@@ -256,4 +256,11 @@ export const recipes = [
         "link": "https://www.ptitim.com/chia_pudding/",
         "img": '/recipes/pudding-chia.jpeg'
     },
+    {
+        "id": 38,
+        "title": "Kik Alicha",
+        "category": ["Lunch"],
+        "link": "https://www.danybar.co.il/recipe-kik-alicha/",
+        "img": '/recipes/kik-alicha.jpeg'
+    },
 ]
