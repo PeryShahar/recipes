@@ -249,4 +249,11 @@ export const recipes = [
         "link": "https://foody.co.il/foody_recipe/%d7%a4%d7%9c%d7%90%d7%a4%d7%9c-%d7%96%d7%95%d7%a7%d7%99%d7%a0%d7%99-%d7%90%d7%a4%d7%95%d7%99%d7%99%d7%9d/",
         "img": '/recipes/zucchini-falafel.jpg'
     },
+    {
+        "id": 37,
+        "title": "Chia Pudding",
+        "category": ["Breakfast"],
+        "link": "https://www.ptitim.com/chia_pudding/",
+        "img": '/recipes/pudding-chia.jpeg'
+    },
 ]
